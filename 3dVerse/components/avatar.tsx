@@ -12,7 +12,7 @@ import {
   AVATARS,
 } from "../constants/animations";
 
-export type Animation = "idle" | "talk" | "wave" | "dance";
+export type Animation = "idle" | "talk" | "walk" | "dance" | "jump";
 export type Orientation = "left" | "right" | "up" | "down";
 
 export interface AvatarState {

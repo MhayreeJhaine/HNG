@@ -11,8 +11,8 @@ export const getAnimationClipName = (animation: Animation): string => {
       return "talking";
     case "dance":
       return "dance";
-    case "wave":
-      return "waving";
+    case "walk":
+      return "jumping";
     case "idle":
     default:
       return "idle";

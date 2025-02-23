@@ -14,7 +14,7 @@ interface ControlsModalProps {
   visible: boolean;
   onClose: () => void;
   onSelectAvatar: (avatar: "male" | "female") => void;
-  onSelectAnimation: (animation: "idle" | "talk" | "wave" | "dance") => void;
+  onSelectAnimation: (animation: "idle" | "talk" | "walk" | "dance") => void;
   onSelectDirection: (direction: "left" | "right") => void;
   selectedAvatar: "male" | "female";
 }
@@ -64,28 +64,28 @@ const ControlsModal = ({
               <Text style={styles.title}>Animations</Text>
               <View style={{ flexDirection: "column" }}>
                 <View style={{ flexDirection: "row", gap: 25 }}>
-                  <Pressable
+                  <TouchableOpacity
                     onPress={() => onSelectAnimation("idle")}
                     style={styles.btn}
                   >
                     <Text style={styles.btnT}>IDLE</Text>
-                  </Pressable>
-                  <Pressable
+                  </TouchableOpacity>
+                  <TouchableOpacity
                     onPress={() => onSelectAnimation("talk")}
                     // style={styles.leftButton}
                     style={styles.btn}
                   >
                     <Text style={styles.btnT}>TALK</Text>
-                  </Pressable>
+                  </TouchableOpacity>
                 </View>
-                {/* <View style={{ flexDirection: "row", gap: 25 }}> */}
-                {/* <Pressable
-                    onPress={() => onSelectAnimation("wave")}
+                {/* <View style={{ flexDirection: "row", gap: 25, left: -8 }}>
+                  <TouchableOpacity
+                    onPress={() => onSelectAnimation("walk")}
                     // style={styles.rightButton}
                     style={styles.btn}
                   >
-                    <Text style={styles.btnT}>WAVE</Text>
-                  </Pressable> */}
+                    <Text style={styles.btnT}>JUMP</Text>
+                  </TouchableOpacity> */}
                 <Pressable
                   onPress={() => onSelectAnimation("dance")}
                   style={styles.btn}
@@ -99,18 +99,18 @@ const ControlsModal = ({
             <View>
               <Text style={styles.title}>Directions</Text>
               <View style={{ flexDirection: "row", gap: 10, top: 20 }}>
-                <Pressable
+                <TouchableOpacity
                   onPress={() => onSelectDirection("left")}
                   style={styles.btn}
                 >
                   <Text style={styles.btnT}>LEFT</Text>
-                </Pressable>
-                <Pressable
+                </TouchableOpacity>
+                <TouchableOpacity
                   onPress={() => onSelectDirection("right")}
                   style={styles.btn}
                 >
                   <Text style={styles.btnT}>RIGHT</Text>
-                </Pressable>
+                </TouchableOpacity>
               </View>
             </View>
           </View>

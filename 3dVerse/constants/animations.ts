@@ -4,6 +4,7 @@ export const maleAnimations = {
   wave: require("../assets/animations/M_Standing_Expressions_001.glb"),
   dance: require("../assets/animations/M_Dances_009.glb"),
   jump: require("../assets/animations/M_Walk_Jump_003.glb"),
+  walk: require("../assets/animations/maleWalk.glb"),
 };
 
 export const femaleAnimations = {
@@ -12,6 +13,7 @@ export const femaleAnimations = {
   wave: require("../assets/animations/M_Standing_Expressions_001.glb"),
   dance: require("../assets/animations/F_Dances_006.glb"),
   jump: require("../assets/animations/F_Walk_Jump_001.glb"),
+  walk: require("../assets/animations/walk.glb"),
 };
 
 export const AVATARS = {

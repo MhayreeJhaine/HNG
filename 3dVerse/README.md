@@ -1,16 +1,22 @@
-#3dVerse
+# 3dVerse
 
-📌 PROJECT OVERVIEW (HNG_stage-three task)
+📌 PROJECT OVERVIEW
+(HNG_stage-three task)
+
 An interactive 3dVerse was built with Expo, React Three Fiber, and Drei. Users can choose between avatars, apply animations, and adjust character direction.
 
 🔗 PROJECT LINKS
 
 3D Assets: [Ready Player Me](https://readyplayer.me/)
 
+3D Animations:[Github Animation Library](https://github.com/readyplayerme/animation-library), [Enhanced Animations](https://github.com/crazyramirez/babylonjs-ReadyPlayerMe-Animation-Combiner)
+
 -Live Demo:[View on Appetize.io](https://appetize.io/app/b_pkhpzeth6see52ibjnsqle5fwe)
 
 ✨ Features
 🕹 3D Avatar Display using @react-three/fiber
+
+🌅 Realistic Lighting with <Environment preset="city" background />
 
 🎭 Custom Animations (idle, talk, dance)
 
@@ -27,18 +33,18 @@ An interactive 3dVerse was built with Expo, React Three Fiber, and Drei. Users c
 
 🏞 Drei (for environment lighting & controls)
 
-🛠 TypeScript
+📝 TypeScript
 
 🎮 Usage Guide
-Open the app 🏗
+Open the app 📽
 
 Tap the 🎮 button to open the control panel
 
-Choose an avatar (Male/Female)
+Choose an avatar (Male👳‍♂️/Female👩‍🦰)
 
 Select an animation (Idle, Talk, Dance)
 
-Adjust the direction (Left/Right)
+Adjust the direction (Left/Right)☺
 
 Enjoy the interactive 3D experience!
 
