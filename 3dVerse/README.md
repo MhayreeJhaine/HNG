@@ -1,72 +1,78 @@
 # 3dVerse
 
-📌 PROJECT OVERVIEW
+## 📌 PROJECT OVERVIEW
+
 (HNG_stage-three task)
 
 An interactive 3dVerse was built with Expo, React Three Fiber, and Drei. Users can choose between avatars, apply animations, and adjust character direction.
 
-🔗 PROJECT LINKS
+**🚀 FEATURES**
 
-3D Assets: [Ready Player Me](https://readyplayer.me/)
+- 🕹 3D Avatar Display using @react-three/fiber
 
-3D Animations:[Github Animation Library](https://github.com/readyplayerme/animation-library), [Enhanced Animations](https://github.com/crazyramirez/babylonjs-ReadyPlayerMe-Animation-Combiner)
+- 🌅 Realistic Lighting with <Environment preset="city" background />
+
+- 🎭 Custom Animations (idle, talk, dance)
+
+- 🔄 Adjustable Avatar Direction (left, right)
+
+- 🎮 Control Panel to modify avatar settings
+
+- ⚙️ Interactive Camera with OrbitControls
+
+## 🔗 PROJECT LINKS
+
+-3D Assets: [Ready Player Me](https://readyplayer.me/)
+
+-3D Animations:[Github Animation Library](https://github.com/readyplayerme/animation-library), [Enhanced Animations](https://github.com/crazyramirez/babylonjs-ReadyPlayerMe-Animation-Combiner)
 
 -Live Demo:[View on Appetize.io](https://appetize.io/app/b_pkhpzeth6see52ibjnsqle5fwe)
 
-✨ Features
-🕹 3D Avatar Display using @react-three/fiber
+## 🛠 TECHNOLOGIES USED
 
-🌅 Realistic Lighting with <Environment preset="city" background />
+- ⚛️ React Native (Expo)
 
-🎭 Custom Animations (idle, talk, dance)
+- 🎨 Three.js (@react-three/fiber)
 
-🔄 Adjustable Avatar Direction (left, right)
+- 🏞 Drei (for environment lighting & controls)
 
-🎮 Control Panel to modify avatar settings
+- 📝 TypeScript
 
-⚙️ Interactive Camera with OrbitControls
+## 🎮 USER GUIDE
 
-🛠 Technologies Used
-⚛️ React Native (Expo)
+**Open the app 📽**
 
-🎨 Three.js (@react-three/fiber)
+- Tap the 🎮 button to open the control panel
 
-🏞 Drei (for environment lighting & controls)
+- Choose an avatar (Male👳‍♂️/Female👩‍🦰)
 
-📝 TypeScript
+- Select an animation (Idle, Talk, Dance)
 
-🎮 Usage Guide
-Open the app 📽
+- Adjust the direction (Left/Right)☺
 
-Tap the 🎮 button to open the control panel
+- Enjoy the interactive 3D experience!
 
-Choose an avatar (Male👳‍♂️/Female👩‍🦰)
+## 📦 INSTALLATION
 
-Select an animation (Idle, Talk, Dance)
+1. Clone the repo:
 
-Adjust the direction (Left/Right)☺
+   ```bash
+   git clone https://github.com/MhayreeJhaine/HNG.git
 
-Enjoy the interactive 3D experience!
+   cd 3dVerse
 
-📦 Installation
+   ```
 
-1️⃣ Clone the repository:
+2. Install dependencies:
+   ```bash
+   npm install # or yarn install
+   ```
+3. Run on physical device using Expo:
+   ```bash
+   npx expo start
+   ```
 
-git clone https://github.com/your-username/avatar-viewer-app.git
-
-cd 3dVerse
-
-2️⃣ Install dependencies:
-
-npm install
-
-yarn install
-
-3️⃣ Run the app:
-
-For Expo: npx expo start
-
-🛠 Future Improvements
+## 🛠 FUTURE IMPROVEMENTS
 
 ✅ Add support for custom 3D models
 
